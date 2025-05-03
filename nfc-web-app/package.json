@@ -1,0 +1,36 @@
+{
+    "name": "nfc-web-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      // Add any other dependencies your project uses (e.g.,
+      // shadcn/ui, framer-motion, any libraries for state management)
+      "@radix-ui/react-dialog": "^1.0.5",
+      "@radix-ui/react-label": "^2.0.2",
+      "@radix-ui/react-select": "^2.0.0",
+      "@radix-ui/react-slot": "^1.0.2",
+      "@radix-ui/react-tooltip": "^1.0.7",
+      "class-variance-authority": "^0.7.0",
+      "clsx": "^2.1.0",
+      "framer-motion": "^11.0.5",
+      "lucide-react": "^3.4.1",
+      "tailwind-merge": "^2.2.1",
+      "tailwindcss": "^3.4.1"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.55",
+      "@types/react-dom": "^18.2.19",
+      "@vitejs/plugin-react": "^4.2.1",
+      "typescript": "^5.3.3",
+      "vite": "^5.1.4"
+      // Include @types/node if you use Node.js APIs in your front-end code
+    },
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    }
+  }
+  

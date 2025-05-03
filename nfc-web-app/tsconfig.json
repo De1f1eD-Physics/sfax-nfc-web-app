@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Or higher, depending on your needs
+      "useDefineForClassFields": true,
+      "lib": ["ES2021", "DOM", "WebWorker"],
+      "allowJs": false,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "incremental": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "plugins": [
+        {
+          "name": "@stylistic/eslint-plugin-ts",
+          "rules": {
+            "no-extra-semi": "off"
+          }
+        }
+      ]
+    },
+    "include": ["src"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+  }
+  
